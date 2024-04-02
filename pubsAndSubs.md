@@ -1,6 +1,6 @@
 # Publishers and Subscribers
 
-__If a tree falls in a forest and no one is around, does it even make a sound?__
+_If a tree falls in a forest and no one is around, does it even make a sound?_
 
 ## Concepts
 
@@ -11,3 +11,7 @@ __If a tree falls in a forest and no one is around, does it even make a sound?__
 - How to make a message
 
 ## Topics
+
+Read more on [ROSWiki] (https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
+
+
