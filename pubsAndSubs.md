@@ -24,8 +24,11 @@ Topics use TCP protocol to send messages by default, you can use UCP with some e
 
 Now we know about the bus, the messages are the people on the bus. A bus has a specific number, and you know that getting on the bus. The messages likewise are only ever in a topic that's relevant to the publisher that put them on the bus, or in the topic. All nodes along the route get the same passengers, which doesn't really fit the bus anaolgy.
 
+Messages are text files that are stored in the message sub-directory of a [package](https://wiki.ros.org/ROS/Tutorials/CreatingPackage) (Remember all packages are found in the src folder of your ROS workspace)
+
 Messages have headers that contain informations and fields, a standard one from ROS wiki:
-```# Standard metadata for higher-level stamped data types.
+```
+# Standard metadata for higher-level stamped data types.
 # This is generally used to communicate timestamped data 
 # in a particular coordinate frame.
 # 
@@ -39,5 +42,6 @@ time stamp
 #Frame this data is associated with
 # 0: no frame
 # 1: global frame
-string frame_id ```
+string frame_id
+```
 
